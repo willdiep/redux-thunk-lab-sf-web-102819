@@ -1,0 +1,115 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 6,
+    "passes": 5,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-01-01T20:43:08.896Z",
+    "end": "2021-01-01T20:43:11.007Z",
+    "duration": 2111
+  },
+  "tests": [
+    {
+      "title": "should use the componentDidMount lifecycle method to fetchCats",
+      "fullTitle": "<App/> should use the componentDidMount lifecycle method to fetchCats",
+      "duration": 51,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "uses redux and thunk to create an action object with type of \"ADD_CATS\" and a payload of cat images",
+      "fullTitle": "async actions uses redux and thunk to create an action object with type of \"ADD_CATS\" and a payload of cat images",
+      "duration": 2011,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should display the cat pics wrapped in <img> tags",
+      "fullTitle": "<CatList/> should display the cat pics wrapped in <img> tags",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 2",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "2",
+        "stack": "AssertionError: expected 0 to equal 2\n    at Context.<anonymous> (test/cat-list-test.js:15:43)\n    at processImmediate (node:internal/timers:463:21)"
+      }
+    },
+    {
+      "title": "should have props catPics",
+      "fullTitle": "<CatList/> should have props catPics",
+      "duration": 7,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return the initial state",
+      "fullTitle": "cats reducer should return the initial state",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should handle the ADD_CATS action",
+      "fullTitle": "cats reducer should handle the ADD_CATS action",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "should display the cat pics wrapped in <img> tags",
+      "fullTitle": "<CatList/> should display the cat pics wrapped in <img> tags",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 2",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "2",
+        "stack": "AssertionError: expected 0 to equal 2\n    at Context.<anonymous> (test/cat-list-test.js:15:43)\n    at processImmediate (node:internal/timers:463:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "should use the componentDidMount lifecycle method to fetchCats",
+      "fullTitle": "<App/> should use the componentDidMount lifecycle method to fetchCats",
+      "duration": 51,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "uses redux and thunk to create an action object with type of \"ADD_CATS\" and a payload of cat images",
+      "fullTitle": "async actions uses redux and thunk to create an action object with type of \"ADD_CATS\" and a payload of cat images",
+      "duration": 2011,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have props catPics",
+      "fullTitle": "<CatList/> should have props catPics",
+      "duration": 7,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return the initial state",
+      "fullTitle": "cats reducer should return the initial state",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should handle the ADD_CATS action",
+      "fullTitle": "cats reducer should handle the ADD_CATS action",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
